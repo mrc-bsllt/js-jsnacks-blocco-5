@@ -18,7 +18,7 @@ $(document).ready(
     ];
     console.log(stringsArray);
 
-    let min = randomNumber(0, 9);
+    let min = randomNumber(0, 8);
     let max = itMustBeBigger(min);
 
     console.log(
@@ -60,10 +60,10 @@ const arrayFilter = (array, numMin, numMax) => {
 const randomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1) + min)
 
 const itMustBeBigger = (minValue) => {
-  var validNumber = randomNumber(0, 10);
+  var validNumber = randomNumber(0, 9);
 
   while (validNumber <= minValue) {
-    validNumber = randomNumber(0, 10);
+    validNumber = randomNumber(0, 9);
   }
 
   return validNumber;
