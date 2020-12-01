@@ -15,6 +15,16 @@ $(document).ready(
       "ottavo",
       "nono",
       "decimo",
+      "undicesimo",
+      "dodicesimo",
+      "tredicesimo",
+      "quattordicesimo",
+      "quindicesimo",
+      "sedicesimo",
+      "diciassettesimo",
+      "diciottesimo",
+      "diciannovesimo",
+      "ventesimo"
     ];
     console.log(stringsArray);
 
