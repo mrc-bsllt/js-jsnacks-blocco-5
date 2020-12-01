@@ -28,7 +28,8 @@ $(document).ready(
       `
     );
 
-    console.log(arrayFilter(stringsArray, min, max));
+    var result = arrayFilter(stringsArray, min, max);
+    console.log(...result);
 
   }
 );
